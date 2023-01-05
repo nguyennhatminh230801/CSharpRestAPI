@@ -1,0 +1,3 @@
+D:\Github\TichHopHeThongPhanMem\Tuan3\XSLT\obj\Debug\PhieuBaiTap1.csproj.AssemblyReference.cache
+D:\Github\TichHopHeThongPhanMem\Tuan3\XSLT\obj\Debug\PhieuBaiTap1.csproj.SuggestedBindingRedirects.cache
+D:\Github\TichHopHeThongPhanMem\Tuan3\XSLT\obj\Debug\PhieuBaiTap1.csproj.CoreCompileInputs.cache

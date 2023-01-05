@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="ThuVien.xslt"?>
+<TV xmlns="http://tempuri.org/ThuVien.xsd" TenTV="Khu A Đại học Công nghiệp">
+	<NhaXB TenNXB="Giáo dục">
+		<Sach MaSach="S001">
+			<TenSach>Tin Văn Phòng</TenSach>
+			<TheLoai>Tin Học</TheLoai>
+			<SoTrang>400</SoTrang>
+		</Sach>
+		<Sach MaSach="S002">
+			<TenSach>Tin Văn Phòng</TenSach>
+			<TheLoai>Tin Học</TheLoai>
+			<SoTrang>120</SoTrang>
+		</Sach>
+		<Sach MaSach="S003">
+			<TenSach>Tin Văn Phòng</TenSach>
+			<TheLoai>Tin Học</TheLoai>
+			<SoTrang>50</SoTrang>
+		</Sach>
+	</NhaXB>
+</TV>

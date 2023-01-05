@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Câu 1 -->
+<KetQuaHocTap>
+    <NamHoc nam="2009">
+        <SinhVien>
+            <HoTen>Nguyễn Việt Đức</HoTen>
+            <NgaySinh>5/3/1997</NgaySinh>
+            <Lop>KTPM3-K9</Lop>
+            <MonHoc tenMon="Toán">
+                <Diem>
+                    <Lan1>5</Lan1>
+                    <Lan2>6</Lan2>
+                    <CaNam>8</CaNam>
+                </Diem>
+            </MonHoc>
+            <HocLuc>Khá</HocLuc>
+            <HanhKiem>Khá</HanhKiem>
+        </SinhVien>
+    </NamHoc>
+</KetQuaHocTap>

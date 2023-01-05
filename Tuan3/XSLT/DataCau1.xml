@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="PhieuBaiTap1.xslt" ?>
+<DanhSach>
+	<HoaDon>
+		<MaHD>HD1</MaHD>
+		<NgayBan>2015-11-09</NgayBan>
+
+		<LoaiHang
+			MaLoai="A"
+			TenLoai="DienTu">
+
+			<Hang
+				MaHang="H1">
+				<TenHang>TiVi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>Chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang
+				MaHang="H2">
+				<TenHang>Tu Lanh</TenHang>
+				<SoLuong>80</SoLuong>
+				<DonViTinh>Chiec</DonViTinh>
+				<DonGia>4200000</DonGia>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+</DanhSach>

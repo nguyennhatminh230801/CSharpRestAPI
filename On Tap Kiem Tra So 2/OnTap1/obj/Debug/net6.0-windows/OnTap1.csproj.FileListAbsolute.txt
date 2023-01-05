@@ -1,0 +1,17 @@
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\bin\Debug\net6.0-windows\OnTap1.exe
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\bin\Debug\net6.0-windows\OnTap1.deps.json
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\bin\Debug\net6.0-windows\OnTap1.runtimeconfig.json
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\bin\Debug\net6.0-windows\OnTap1.dll
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\bin\Debug\net6.0-windows\OnTap1.pdb
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.csproj.AssemblyReference.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.Form1.resources
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.csproj.GenerateResource.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.AssemblyInfoInputs.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.AssemblyInfo.cs
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.csproj.CoreCompileInputs.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.dll
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\refint\OnTap1.dll
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.pdb
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\OnTap1.genruntimeconfig.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Kiem Tra So 2\OnTap1\obj\Debug\net6.0-windows\ref\OnTap1.dll

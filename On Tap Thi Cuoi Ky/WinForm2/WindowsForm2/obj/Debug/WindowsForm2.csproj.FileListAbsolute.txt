@@ -1,0 +1,11 @@
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\bin\Debug\WindowsForm2.exe.config
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\bin\Debug\WindowsForm2.exe
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\bin\Debug\WindowsForm2.pdb
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.csproj.AssemblyReference.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.csproj.SuggestedBindingRedirects.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.Form1.resources
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.Properties.Resources.resources
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.csproj.GenerateResource.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.csproj.CoreCompileInputs.cache
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.exe
+D:\Github\TichHopHeThongPhanMem\On Tap Thi Cuoi Ky\WinForm2\WindowsForm2\obj\Debug\WindowsForm2.pdb

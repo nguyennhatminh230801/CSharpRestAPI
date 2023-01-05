@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OnTap"
+    targetNamespace="http://tempuri.org/OnTap.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/OnTap.xsd"
+    xmlns:mstns="http://tempuri.org/OnTap.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:simpleType name="hoTenType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="2"></xs:minLength>
+			<xs:maxLength value="50"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="trinhDoType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Đại học"></xs:enumeration>
+			<xs:enumeration value="Cao đẳng"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="gioiTinhType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Nam"></xs:enumeration>
+			<xs:enumeration value="Nữ"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ngaySinhType">
+		<xs:restriction base="xs:date">
+			<xs:minExclusive value="1994-01-01"></xs:minExclusive>
+			<xs:maxExclusive value="2022-12-31"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="maSinhVienType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9a-zA-Z]{10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="sinhVienType">
+		<xs:sequence>
+			<xs:element name="HoTen" type="hoTenType"></xs:element>
+			<xs:element name="TrinhDo" type="trinhDoType"></xs:element>
+			<xs:element name="GioiTinh" type="gioiTinhType"></xs:element>
+			<xs:element name="NgaySinh" type="ngaySinhType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="maSinhVien" type="maSinhVienType"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="danhSachSinhVienType">
+		<xs:sequence>
+			<xs:element name="SinhVien" type="sinhVienType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="DanhSachSinhVien" type="danhSachSinhVienType"></xs:element>
+</xs:schema>

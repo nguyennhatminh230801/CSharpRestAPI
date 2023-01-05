@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DanhSachSach>
+  <Sach mas="s1" nhaxb="NXB TH">
+    <TenSach>Dế mèn Piu Liu Kế</TenSach>
+    <GiaBan>12000</GiaBan>
+    <TacGia>Hwoang Phi Dzung</TacGia>
+  </Sach>
+  <Sach mas="s2" nhaxb="NXB GD">
+    <TenSach>Đố À Rê Mon</TenSach>
+    <GiaBan>15000</GiaBan>
+    <TacGia>Phu Di Ô Pu Kô</TacGia>
+  </Sach>
+  <Sach mas="s3" nhaxb="NXB GD">
+    <TenSach>Sach 3</TenSach>
+    <GiaBan>120000</GiaBan>
+    <TacGia>Minh</TacGia>
+  </Sach>
+</DanhSachSach>

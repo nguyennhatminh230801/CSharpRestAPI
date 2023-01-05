@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NganHang>
+	<TaiKhoan>
+		<SoTaiKhoan>TK001</SoTaiKhoan>
+		<TenTaiKhoan>Nguyen Thi Mai Anh</TenTaiKhoan>
+		<DiaChi>Ha Noi</DiaChi>
+		<DienThoai>098734544</DienThoai>
+		<SoTien>300000</SoTien>
+	</TaiKhoan>
+</NganHang>

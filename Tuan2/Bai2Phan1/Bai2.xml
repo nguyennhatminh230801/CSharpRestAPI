@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Câu 2-->
+<DoAnTotNghiep So="121">
+    <HoTen>Nguyễn Văn Bắc</HoTen>
+    <Lop>HTTT2-K10</Lop>
+    <KhoaHoc>K10</KhoaHoc>
+    <Khoa>CNTT</Khoa>
+    <GVHD>Trần Thanh Hùng</GVHD>
+
+    <DanhSachBanVe>
+        <BanVe ten="A">
+            <KhoGiay>A1</KhoGiay>
+            <SoLuong>3</SoLuong>
+        </BanVe>
+        <BanVe ten="B">
+            <KhoGiay>A1</KhoGiay>
+            <SoLuong>3</SoLuong>
+        </BanVe>
+        <BanVe ten="C">
+            <KhoGiay>A1</KhoGiay>
+            <SoLuong>3</SoLuong>
+        </BanVe>
+    </DanhSachBanVe>
+
+    <NgayGiaoDe>2/9/2017</NgayGiaoDe>
+    <NgayHoanThanh>3/9/2017</NgayHoanThanh>
+</DoAnTotNghiep>

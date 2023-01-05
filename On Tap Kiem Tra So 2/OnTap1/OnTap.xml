@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="OnTap.xslt"?>
+<DanhSachSinhVien>
+	<SinhVien maSinhVien="2019600285">
+		<HoTen>Nguyễn Nhật Minh</HoTen>
+		<TrinhDo>Đại học</TrinhDo>
+		<GioiTinh>Nam</GioiTinh>
+		<NgaySinh>2001-08-23</NgaySinh>
+	</SinhVien>
+</DanhSachSinhVien>

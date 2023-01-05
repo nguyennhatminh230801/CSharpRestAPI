@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThuVien"
+    targetNamespace="http://tempuri.org/ThuVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/ThuVien.xsd"
+    xmlns:mstns="http://tempuri.org/ThuVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<!--Simple type: Kiểu được chế ra từ dữ liệu cơ bản-->
+	<xs:simpleType name="maSachType">
+		<!--Restriction: ràng buộc, base dữ liệu cơ sở-->
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="[a-zA-z0-9]{0,6}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="soTrangType">
+		<xs:restriction base="xs:integer">
+			<!-- Min inclusive(>=), Max inclusive(<=) -->
+			<xs:minInclusive value="50"></xs:minInclusive>
+			<xs:maxInclusive value="400"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tenNhaXuatBanType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Giáo dục"></xs:enumeration>
+			<xs:enumeration value="Tuổi trẻ"></xs:enumeration>
+			<xs:enumeration value="Khoa học kỹ thuật"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!--Complex type: kiểu thành 1 đối tượng, sequence: dữ liệu tuần tự từ trên xuống -->
+	<xs:complexType name="sachType">
+		<xs:sequence>
+			<xs:element name="TenSach" type="xs:string"></xs:element>
+			<xs:element name="TheLoai" type="xs:string"></xs:element>
+			<xs:element name="SoTrang" type="soTrangType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaSach" type="maSachType"></xs:attribute>
+	</xs:complexType>
+	
+	<!--minOccurs: xuất hiện tối thiểu bao nhiêu lần
+		maxOccurs: ..........tối đa ................-->
+	<xs:complexType name="nhaXuatBanType">
+		<xs:sequence>
+			<xs:element name="Sach" type="sachType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="TenNXB" type="tenNhaXuatBanType"></xs:attribute>
+	</xs:complexType>
+
+
+	<xs:complexType name="thuVienType">
+		<xs:sequence>
+			<xs:element name="NhaXB" type="nhaXuatBanType" minOccurs="0" maxOccurs="10"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="TenTV" type="xs:string"></xs:attribute>
+	</xs:complexType>
+
+	<xs:element name="TV" type="thuVienType"></xs:element>
+</xs:schema>
